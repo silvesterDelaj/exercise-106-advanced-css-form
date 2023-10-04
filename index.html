@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./advanced-style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="text-center">CONTACT US</h1>
+    </header>
+
+    <!-- Main -->
+    <main class="text-center">
+
+        <img src="./icon.png" alt="Icon">
+
+        <h2>Fill up the form</h2>
+        <p class="required">required</p>
+
+        <form action="">
+
+            <!-- First Name -->
+            <div class="form-element-container">
+                <label>
+                    <p class="required">Name</p>
+                    <input class="form-element" type="text" name="name" required placeholder="Write your First Name">
+                </label>
+            </div>
+
+            <!-- Last Name -->
+            <div class="form-element-container">
+                <label>
+                    <p>Last Name</p>
+                    <input class="form-element" type="text" name="name">
+                </label>
+            </div>
+
+            <!-- Email -->
+            <div class="form-element-container">
+                <label>
+                    <p class="required">Email</p>
+                    <input class="form-element" type="email" name="email" required>
+                </label>
+            </div>
+
+            <!-- Profession -->
+            <div class="form-element-container">
+                <label for="profession-select">
+                    <p>Profession</p>
+                    <select class="form-element" name="profession" id="profession-select">
+                        <option value="frontend-developer">Frontend Developer</option>
+                        <option value="backend-developer">Backend Developer</option>
+                        <option value="fullstack-developer" selected>Fullstack Developer</option>
+                        <option value="software-engineer">Software Engingeer</option>
+                        <option value="web-designer">Web Designer</option>
+                        <option value="project-manager">Project Manager</option>
+                        <option value="owner">Owner</option>
+                        <option value="graphic-designer">Graphic Designer</option>
+                        <option value="lead-developer">Lead Developer</option>
+                        <option value="ux-designer">UX Designer</option>
+                    </select>   
+                </label>
+            </div>
+
+            <!-- Sex -->
+            <div class="form-element-container">
+                <p class="required">Sex</p>
+                <div>
+                    <label>
+                        <input class="align-middle no-margin" type="radio" name="sex" value="m" required>
+                        <span class="align-middle">Male</span>
+                    </label>
+                    <label id="female-label">
+                        <input class="align-middle no-margin" type="radio" name="sex" value="f" required>
+                        <span class="align-middle">Female</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Message -->
+            <div class="form-element-container">
+                <label for="message-textarea">
+                    <p class="required">Message</p>
+                    <textarea required class="form-element" name="message" id="message-textarea" cols="30" rows="10">Dear Agency,</textarea>
+                </label>
+            </div>
+
+            <!-- Privacy -->
+            <div class="form-element-container text-center">
+                <input class="align-middle no-margin" type="checkbox" required>
+                <span class="align-middle required">
+                    I accept the 
+                    <a href="./privacy.html" target="_blank">Privacy Policy</a>
+                </span>
+            </div>
+
+            <div class="form-element-container text-center">
+                <button>Send Message</button>
+            </div>
+
+
+        </form>
+
+    </main>
+
+</body>
+</html>

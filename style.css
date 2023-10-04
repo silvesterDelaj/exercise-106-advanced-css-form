@@ -1,0 +1,93 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    padding: 50px 25px;
+    background-image: url(./header.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, .5);
+    padding: .5em 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+main{
+    background-color: #F5F3E7;
+    padding: 20px 0; //to skip border-collpase
+}
+
+h2{
+    text-decoration: underline;
+}
+
+form{
+    background-color: white;
+    border: 1px solid #AEAFB3;
+    border-radius: 10px;
+    margin: 0 25%;
+    text-align: left;
+    padding: 1rem;
+}
+
+.form-element{
+    background-color: #FFEFC3;
+    border: 1px solid #AEAFB3;
+    border-radius: 2.5px;
+    padding: .5em .75em;
+    width: 100%;
+}
+
+.form-element-container{
+    padding: 1px;
+    margin: 1rem 0;
+}
+
+textarea{
+    resize: none;
+    color: brown;
+}
+
+.align-middle{
+    vertical-align: middle;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+#female-label{
+    margin-left: 1rem;
+}
+
+button{
+    background-color: gold;
+    border: 1px solid #AEAFB3;
+    border-radius: 2.5px;
+    padding: .5em .75em;
+    font-weight: bold;
+    margin: .5rem 0;
+}
+
+input[type="checkbox"]{
+    margin-right: 1em;
+}
+
+img{
+    width: 50px;
+}
+
